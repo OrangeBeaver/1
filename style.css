@@ -14,6 +14,9 @@ body {
     height: 3vh;
     width: 10vw;
 }
+.inputb{
+    width: 16em;
+}
 
 .num {
     float: left;
