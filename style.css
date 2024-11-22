@@ -111,7 +111,7 @@ input[type="radio"] {
 }
 
 .schem {
-    height: 200px;
+    height: 20vm;
     width: 90%;
     margin: auto 5%;
     background-color: grey;
