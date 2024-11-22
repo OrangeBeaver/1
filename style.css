@@ -7,28 +7,33 @@ body {
 .block {
     background: grey;
     width: 100%;
-    height: 900px;
+    height: 70vh;
+}
+.input{
+    margin: 65vh auto;
+    height: 3vh;
+    width: 10vw;
 }
 
 .num {
     float: left;
-    padding-inline: 8%;
+    padding-inline: 8vw;
 }
 
 .text {
     display: block;
     float: left;
-    width: 25%;
-    margin: 0 4%;
+    width: 24vw;
+    margin: 0 4vw;
 }
 
 .div1 {
-    margin: 5% 0;
+    margin: 5vh 0;
 }
 
 .slider {
-    width: 600px;
-    height: 400px;
+    width: 60vw;
+    height: 40vh;
     margin: 200px auto;
     position: relative;
     overflow: hidden;
@@ -37,13 +42,13 @@ body {
 
 .slides {
     display: flex;
-    width: 2400px;
+    width: 240vw;
     transition: transform 0.5s ease;
 }
 
 .slide {
-    width: 600px;
-    height: 400px;
+    width: 60vw;
+    height: 40vh;
 }
 
 .slide img {
@@ -62,8 +67,8 @@ body {
 }
 
 .manual-btn {
-    width: 15px;
-    height: 15px;
+    width: 1vh;
+    height: 1vh;
     margin: 0 5px;
     background-color: #fff;
     border-radius: 50%;
@@ -86,15 +91,15 @@ input[type="radio"] {
 }
 
 #radio2:checked ~ .slides {
-    transform: translateX(-600px);
+    transform: translateX(-60vw);
 }
 
 #radio3:checked ~ .slides {
-    transform: translateX(-1200px);
+    transform: translateX(-120vw);
 }
 
 #radio4:checked ~ .slides {
-    transform: translateX(-1800px);
+    transform: translateX(-180vw);
 }
 
 /* Стили для активных кнопок навигации */
@@ -106,26 +111,26 @@ input[type="radio"] {
 }
 
 .butt {
-    height: 250px;
-    width: 100%;
+    height: 20vh;
+    width: 100vw;
 }
 
 .schem {
-    height: 200vm;
-    width: 90%;
-    margin: auto 5%;
+    height: 25vh;
+    width: 90vw;
+    margin: auto 4vw;
     background-color: grey;
 }
 
 .text1 {
     display: block;
     float: left;
-    width: 15%;
-    margin: 10px 5%;
+    width: 14vw;
+    margin: 3vh 5vw;
 }
 
 .punk {
-    margin-bottom: 10px;
+    margin-bottom: 4vh;
 }
 
 .tabl {
